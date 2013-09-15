@@ -13,7 +13,7 @@
   <license>MIT</license>
 
   <engines>
-    <engine name="cordova" version="All"/>
+    <engine name="cordova" version=">=1.5.0"/>
   </engines>
 
   <platform name="ios">
