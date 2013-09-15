@@ -13,7 +13,8 @@ Add this plugin and set orientation to portrait, this plugin will add landscape 
 
 ## 2. Installation
 
-The only thing you need to do is adding this line to your `www/config.xml`:
+The only thing you need to do is editing your `www/config.xml`.
+Add this line:
 
 ```xml
 <gap:plugin name="nl.x-services.plugins.ipadlandscapeenabler" />
