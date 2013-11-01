@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         id="nl.x-services.plugins.ipadlandscapeenabler"
-        version="1.0">
+        version="3.0">
 
   <name>iPad Landscape Enabler</name>
 
@@ -13,7 +13,7 @@
   <license>MIT</license>
 
   <engines>
-    <engine name="cordova" version=">=2.5.0"/>
+    <engine name="cordova" version=">=3.0.0"/>
   </engines>
 
   <platform name="ios">

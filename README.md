@@ -1,6 +1,6 @@
 # iPad Landscape Enabler
 
-by [Eddy Verbruggen](http://www.x-services.nl)
+by [Eddy Verbruggen](http://www.x-services.nl), for PhoneGap >= 3.0.0 ([check here for PhoneGap < 3.0.0](https://github.com/EddyVerbruggen/iPadLandscapeEnabler-PhoneGapBuild-Plugin/tree/pre-phonegap-3.0)).
 
 1. [Description](https://github.com/EddyVerbruggen/iPadLandscapeEnabler-PhoneGapBuild-Plugin#1-description)
 2. [Installation](https://github.com/EddyVerbruggen/iPadLandscapeEnabler-PhoneGapBuild-Plugin#2-installation)
@@ -21,7 +21,7 @@ Add this line:
 ```
 or to use this exact version:
 ```xml
-<gap:plugin name="nl.x-services.plugins.ipadlandscapeenabler" version="1.0" />
+<gap:plugin name="nl.x-services.plugins.ipadlandscapeenabler" version="3.0" />
 ```
 
 And while you are editing the `www/config.xml`, make sure you set the orientation preference to portrait:
