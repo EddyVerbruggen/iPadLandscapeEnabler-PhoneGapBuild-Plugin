@@ -2,6 +2,20 @@
 
 by [Eddy Verbruggen](http://www.x-services.nl), for PhoneGap >= 3.0.0 ([check here for PhoneGap < 3.0.0](https://github.com/EddyVerbruggen/iPadLandscapeEnabler-PhoneGapBuild-Plugin/tree/pre-phonegap-3.0)).
 
+> @deprecated since 28/01/2014: PhoneGap Build now allows fine-grained control of your iOS device orientation via the config.xml. See [this issue](https://github.com/phonegap/build/issues/212) for details. Here's an example of a config.xml which achieves the exact same thing as this plugin does:
+``` xml
+  <!-- use portrait mode for all devices.. -->
+  <preference name="orientation" value="portrait" />
+  <!-- .. but override iPad orientation to allow landscape as well (set overwrite="true" to allow only landscape) -->
+  <gap:config-file platform="ios" parent="UISupportedInterfaceOrientations~ipad" overwrite="false">
+    <array>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+  </gap:config-file>
+```
+
+
 1. [Description](https://github.com/EddyVerbruggen/iPadLandscapeEnabler-PhoneGapBuild-Plugin#1-description)
 2. [Installation](https://github.com/EddyVerbruggen/iPadLandscapeEnabler-PhoneGapBuild-Plugin#2-installation)
 3. [License](https://github.com/EddyVerbruggen/iPadLandscapeEnabler-PhoneGapBuild-Plugin#3-license)
